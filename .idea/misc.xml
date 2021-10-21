@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android/LayetteV2/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Android/LayetteV2/app/src/main/res/layout/category_item.xml" value="0.536" />
         <entry key="..\:/Program/Android/LayetteV2/app/src/main/res/layout/activity_main.xml" value="0.36354166666666665" />
         <entry key="..\:/Program/Android/LayetteV2/app/src/main/res/layout/category_item.xml" value="0.36354166666666665" />
       </map>

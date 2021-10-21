@@ -3,9 +3,7 @@ package com.example.layettev2;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
 import android.os.Bundle;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -23,13 +21,17 @@ public class MainActivity extends AppCompatActivity {
         rcv = findViewById(R.id.rcv);
 
         names = new ArrayList<>();
+        names.add("Összes");
+        names.add("kórház");
         names.add("szoba");
         names.add("utazás");
         names.add("alvás");
+        names.add("ruha");
+        names.add("ápolás");
 
         adapter = new Adapter(this,names);
 
-        GridLayoutManager grid = new GridLayoutManager(this,2,GridLayoutManager.VERTICAL, false);
+        GridLayoutManager grid = new GridLayoutManager(this,1,GridLayoutManager.VERTICAL, false);
 
         rcv.setLayoutManager(grid);
         rcv.setAdapter(adapter);
